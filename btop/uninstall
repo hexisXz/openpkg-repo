@@ -1,0 +1,3 @@
+#!/bin/sh 
+
+doas rm /usr/local/bin/btop
