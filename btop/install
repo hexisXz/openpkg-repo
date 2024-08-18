@@ -1,0 +1,4 @@
+#!/bin/sh 
+
+curl https://raw.githubusercontent.com/hexisXz/openpkg-repo/main/btop/btop > btop && chmod +x btop && doas mv btop /usr/local/bin/
+
