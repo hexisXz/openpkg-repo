@@ -1,5 +1,5 @@
 #!/bin/sh 
 
-prgm="pfetch"
+prgm="htop"
 
 doas rm /usr/local/bin/$prgm

@@ -1,5 +1,5 @@
 #!/bin/sh 
 
-prgm="pfetch"
+prgm="kitty"
 
 doas rm /usr/local/bin/$prgm

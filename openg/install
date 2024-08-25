@@ -1,6 +1,6 @@
 #!/bin/sh 
 
-prgm="btop"
+prgm="openg"
 
 ftp https://raw.githubusercontent.com/hexisXz/openpkg-repo/main/$prgm/$prgm && chmod +x $prgm && doas mv $prgm /usr/local/bin/
 

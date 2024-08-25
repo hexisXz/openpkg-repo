@@ -1,3 +1,6 @@
 #!/bin/sh 
 
-curl https://raw.githubusercontent.com/hexisXz/openpkg-repo/main/pfetch/pfetch > pfetch && chmod +x pfetch && doas mv pfetch /usr/local/bin/
+prgm="pfetch"
+
+ftp https://raw.githubusercontent.com/hexisXz/openpkg-repo/main/$prgm/$prgm && chmod +x $prgm && doas mv $prgm /usr/local/bin/
+
